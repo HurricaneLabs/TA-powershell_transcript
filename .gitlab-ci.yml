@@ -1,28 +1,8 @@
 image: python
 stages:
-    - lint
-    - sectest
     - build
     - splunktest
 
-delint:
-    stage: lint
-    script:
-    - pip3 install pylint
-    - pip3 install requests
-    - pylint -d R0801,F0401,C0103,C0301,E0401,C0413,W0703 ${CI_PROJECT_DIR}/bin/*.py
-
-    tags:
-        - docker
-
-sectests:
-    stage: sectest
-    script:
-    - pip3 install bandit
-    - bandit -r ${CI_PROJECT_DIR}/bin/*.py
-
-    tags:
-        - docker
 
 build:
     stage: build
@@ -46,4 +26,3 @@ splunktest:
 
     tags:
         - docker
-
