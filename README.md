@@ -20,13 +20,15 @@ This app provides knowledge objects for working with Windows PowerShell transrip
 This add-on should be installed on both search heads and indexers. 
 
 On Universal Forwarders monitoring PowerShell transcript log files, the following configuration is recommended.
-```#Monitor PowerShell transcript logs
+```
+#Monitor PowerShell transcript logs
 [monitor://C:\pstrans\*\*.txt]
 sourcetype = powershell:transcript
 index = powershell
 disabled = 0
 multiline_event_extra_waittime = true
-time_before_close = 300```
+time_before_close = 300
+```
 
 Additional information on the configuration of this app is available here: https://www.hurricanelabs.com/splunk-tutorials/XXXXXXX
 
