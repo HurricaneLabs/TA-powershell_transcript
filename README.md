@@ -30,7 +30,7 @@ multiline_event_extra_waittime = true
 time_before_close = 300
 ```
 
-Additional information on the configuration of this app is available here: https://www.hurricanelabs.com/splunk-tutorials/XXXXXXX
+Additional information on the configuration of this app is available here: www.hurricanelabs.com/splunk-tutorials/splunk-tutorial-powershell-transcription-logging
 
 # Support:
 - This app is developer supported by Hurricane Labs. 
