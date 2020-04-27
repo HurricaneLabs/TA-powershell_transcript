@@ -4,7 +4,7 @@
 - Splunk 7.3, 8.0
 
 ## How This App Works
-This app provides knowledge objects for working with Windows PowerShell transript logs.  
+This app provides knowledge objects for working with Windows PowerShell transcript logs.  In addition to field extractions, a number of event types are included to support threat hunting use cases. 
 
 ## About Hurricane Labs Add-on for Windows PowerShell Transcript
 
