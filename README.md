@@ -1,7 +1,7 @@
 # Hurricane Labs Add-on for Windows PowerShell Transcript
 
 ## Support
-- Splunk 7.3, 8.0
+- Splunk 7.3, 8.x, 9.x
 
 ## How This App Works
 This app provides knowledge objects for working with Windows PowerShell transcript logs.  In addition to field extractions, a number of event types are included to support threat hunting use cases. 
@@ -10,7 +10,7 @@ This app provides knowledge objects for working with Windows PowerShell transcri
 
 | Author | Tom Kopchak, Hurricane Labs |
 | --- | --- |
-| App Version | 0.1.0 |
+| App Version | 0.1.3 |
 | Vendor Products | Windows PowerShell |
 | Has index-time operations | true - line breaking |
 | Create an index | false |
@@ -39,5 +39,14 @@ Additional information on the configuration of this app is available here: www.h
 
 
 # Updates
+0.1.3
+-Fixed username and runas extractions, thanks Martin Mueller for contribution
+
+0.1.2
+-Fixed PSVersion and std_out extractions, thanks Jamie Wells for contribution
+
+0.1.1
+-Fixed typos in props.conf and tags.conf
+
 0.1.0
 -Initial release
